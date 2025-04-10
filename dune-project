@@ -72,8 +72,6 @@
  (depends
   (ocaml
    (>= 5.2))
-  (diff4s
-   (= :version))
   (ocamlformat
    (and
     :with-dev-setup
@@ -84,6 +82,8 @@
     (< v0.18)))
   (cmdlang
    (>= 0.0.9))
+  (diff4s
+   (= :version))
   (expect_test_helpers_core
    (and
     (>= v0.17)
@@ -146,10 +146,6 @@
  (depends
   (ocaml
    (>= 5.2))
-  (diff4s
-   (= :version))
-  (diff4s-tests
-   (= :version))
   (ocamlformat
    (and
     :with-dev-setup
@@ -160,6 +156,10 @@
     (< v0.18)))
   (cmdlang
    (>= 0.0.9))
+  (diff4s
+   (= :version))
+  (diff4s-tests
+   (= :version))
   (expect_test_helpers_core
    (and
     (>= v0.17)
